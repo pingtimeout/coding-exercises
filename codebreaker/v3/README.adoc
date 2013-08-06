@@ -1,0 +1,20 @@
+= Codebreaker - v3
+Codebreaker is also known as the game "Mastermind".
+
+There is a secret code composed by 4 digits.
+The player submits a guess and is returned with a 4 characters result string.
+That result string gives indications on how close the guess is to the actual secret.
+
+The result string contains a `+` if a digit is an exact match.
+An exact match is a digit that matches a digit of the secret code both in value and in position.
+
+It contains a `-` for a digit match.
+A digit match is a digit that matches a digit of the secret code in value but does not have the correct position.
+
+It does not contain anything for guessed digits that are not part of the secret.
+
+A function that evaluates a guess against a secret is provided.
+It is the function `CodeBreaker.evaluate(String secret, String guess)`.
+
+Your task is to create tests for this function.
+Pseudo-code and Java code are both allowed.

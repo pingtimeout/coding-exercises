@@ -1,0 +1,10 @@
+= Fibonacci
+You may be familiar with the Fibonacci sequence.
+It goes as follows:
+
+[code]
+----
+1, 1, 2, 3, 5, 8, 13, 21, ...
+----
+
+You task is to implement a function that returns the n'th number in that sequence

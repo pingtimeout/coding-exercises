@@ -2,7 +2,7 @@
 Codebreaker is also known as the game "Mastermind".
 
 There is a secret code composed by 4 digits.
-The player submits a guess and is returned with a 4 characters result string.
+The player submits a guess and is returned with a result string that is at most 4 characters.
 That result string gives indications on how close the guess is to the actual secret.
 
 The result string contains a `+` if a digit is an exact match.

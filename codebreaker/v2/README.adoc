@@ -20,3 +20,12 @@ The function signature should be:
 ----
 String evaluate(String secret, String guess)
 ----
+
+The table below contains example evaluations.
+```
+evaluate("1234", "5678") => (empty string)
+evaluate("1234", "1278") => ++
+evaluate("1234", "7812") => --
+evaluate("1234", "1245") => ++-
+evaluate("1234", "1234") => ++++
+```
